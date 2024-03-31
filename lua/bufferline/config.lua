@@ -245,7 +245,7 @@ local function derive_colors(preset)
   -- If the colorscheme is bright we shouldn't do as much shading
   -- as this makes light color schemes harder to read
   local is_bright_background = colors.color_is_bright(normal_bg)
-  local separator_shading = is_bright_background and -20 or -45
+  local separator_shading = is_bright_background and -20 or -25
   local background_shading = is_bright_background and -12 or -25
   local diagnostic_shading = is_bright_background and -12 or -25
 
